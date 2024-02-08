@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedLINQ", "AdvancedLINQ\AdvancedLINQ.csproj", "{E2AFAE15-6FA7-4057-9985-9A8B1ECF5619}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedLINQ", "AdvancedLINQ\AdvancedLINQ.csproj", "{E2AFAE15-6FA7-4057-9985-9A8B1ECF5619}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{4C0A863B-2262-4779-9572-955803523840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayer", "DataLayer\DataLayer.csproj", "{4C0A863B-2262-4779-9572-955803523840}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryType", "QueryType\QueryType.csproj", "{4D34AFF6-02D1-4ADB-BD06-F6BED1282E4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueryType", "QueryType\QueryType.csproj", "{4D34AFF6-02D1-4ADB-BD06-F6BED1282E4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodType", "MethodType\MethodType.csproj", "{03098467-60DD-408A-8FA3-0F668139CAC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodType", "MethodType\MethodType.csproj", "{03098467-60DD-408A-8FA3-0F668139CAC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{3CDBF61D-D53C-4F68-910A-B3A1B39F619D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{03098467-60DD-408A-8FA3-0F668139CAC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03098467-60DD-408A-8FA3-0F668139CAC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03098467-60DD-408A-8FA3-0F668139CAC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CDBF61D-D53C-4F68-910A-B3A1B39F619D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CDBF61D-D53C-4F68-910A-B3A1B39F619D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CDBF61D-D53C-4F68-910A-B3A1B39F619D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CDBF61D-D53C-4F68-910A-B3A1B39F619D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
