@@ -5,8 +5,8 @@ namespace DataLayer
 {
     public static class Data
     {
-        private static List<EmployeeModel> EmployeeList { get; set; }
-        private static List<DepartmentModel> DepartmentList { get; set; }
+        private static List<EmployeeModel> EmployeeList { get; set; } = new();
+        private static List<DepartmentModel> DepartmentList { get; set; } = new();
 
         public static List<EmployeeModel> GetEmployees()
         {
