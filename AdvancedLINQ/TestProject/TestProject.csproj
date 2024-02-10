@@ -24,4 +24,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataLayer\DataLayer.csproj" />
+    <ProjectReference Include="..\MethodType\MethodType.csproj" />
+    <ProjectReference Include="..\QueryType\QueryType.csproj" />
+  </ItemGroup>
+
 </Project>
