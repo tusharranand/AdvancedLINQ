@@ -2,17 +2,12 @@
 using DataLayer.PretendCompanyModals;
 using DataLayer.PretendCompanyModels;
 using FluentAssertions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TestProject
 {
     public class DataTest
     {
-        [Fact] 
+        [Fact]
         public void GetEmployeesList_Data()
         {
             //Arrange
@@ -22,11 +17,11 @@ namespace TestProject
             List<EmployeeModel> employeesList_Actual = Data.GetEmployees();
 
             //Assert
-            employeesList_Actual.Should().NotBeNull();
-            employeesList_Actual.Count.Should().Be(employeeCount_Expected);
+            _ = employeesList_Actual.Should().NotBeNull();
+            _ = employeesList_Actual.Count.Should().Be(employeeCount_Expected);
         }
 
-        [Fact] 
+        [Fact]
         public void GetDepartmentList_Data()
         {
             //Arrange
@@ -36,8 +31,8 @@ namespace TestProject
             List<DepartmentModel> departmentList_Actual = Data.GetDepartments();
 
             //Assert
-            departmentList_Actual.Should().NotBeNull();
-            departmentList_Actual.Count.Should().Be(employeeCount_Expected);
+            _ = departmentList_Actual.Should().NotBeNull();
+            _ = departmentList_Actual.Count.Should().Be(employeeCount_Expected);
         }
     }
 }
